@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+  <title>何学科志望？</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+@charset"UTF-8";
+    body {
+    padding-top: 180px;
+    background-color: yellow;
+    color: purple;
+    }
+    header {
+      text-align: left;
+      background-color: pink;
+      color: purple;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    h1 {
+      line-height: 2;
+    }
+    .department {
+        color: yellow;
+    }
+    input:checked + label {
+        color: purple;
+    }
+</style>
+</head>
+
+<body>
+  <header>
+    <h1>何学科志望？</h1>
+  </header>
+
+  <main>
+    <p style="color:purple;"><b>理学部</b></p>
+  </main>
+<div class="department" alt="学科">
+  <input type="checkbox" id="math">
+  <label for="math">数理学科</label><br>
+  <input type="checkbox" id="phy">
+  <label for="phy">物理学科</label><br>
+  <input type="checkbox" id="che">
+  <label for="che">化学科</label><br>
+  <input type="checkbox" id="bio">
+  <label for="bio">生命理学科</label><br>
+  <input type="checkbox" id="earth">
+  <label for="earth">地球惑星科学科</label>
+</div>
+</body>
+</html>
